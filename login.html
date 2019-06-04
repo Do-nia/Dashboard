@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="form">
+        <h2>Please Sign In</h2>
+        <form novalidate>
+            <input type="email" placeholder="Email Address" id="email" required />
+            <div id="req">
+                <i class="fas fa-exclamation-triangle"></i>
+                This Field is Required
+            </div>
+            <div id="err">
+                <i class="fas fa-exclamation-triangle"></i>
+               Incorrect Format
+            </div>
+            <input type="password" placeholder="Password" id="password" required />
+            <div id="req2">
+                <i class="fas fa-exclamation-triangle"></i>
+                This Field is Required
+            </div>
+            <div id="err2">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>Password Should have Letters upper and lowercase, number & special character ( 6 : 12 characters ) </span>
+            </div>
+            <button>log in</button>
+        </form>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

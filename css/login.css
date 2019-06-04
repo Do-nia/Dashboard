@@ -1,0 +1,51 @@
+body{
+    padding: 130px 0;
+    background-color: rgb(199, 199, 199);
+    background-image: url("../img/unsplash.jpg");
+    background-size: cover;
+}
+.form {
+    background: #FFFFFF;
+    width: 360px;
+    margin: 0 auto;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', serif;
+  }
+.form h2{
+    color: rgb(78, 0, 61);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+.form label{
+  display: inline-block;
+}
+.form input {
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+.form button {
+    text-transform: uppercase;
+    background-color:rgb(78, 0, 61);
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #err , #req , #err2 , #req2{
+      display: none;
+      font-family: 'Roboto', sans-serif;
+      color: red;
+      font-size: 14px;
+      text-align: left;
+      padding-bottom: 15px;
+      margin-left: 10px;
+  }

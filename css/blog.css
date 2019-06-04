@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(199, 199, 199);
+    background-image: url("../img/unsplash.jpg");
+    background-size: cover;
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: rgb(78, 0, 61);
+    height: 150px;
+}
+.content{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgb(78, 0, 61);
+}
+.content:nth-child(odd){
+    background-color: rgb(243, 243, 243);
+}
+h3{
+    color: rgb(78, 0, 61);
+    margin-bottom: 10px;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 185px;
+}
+.list li{
+    list-style: none;
+    color: white;
+    padding: 20px 10px 13px 10px;
+    font-size: 14px;
+}
+.list h1{
+    color: white;
+    padding: 30px 40px 13px 185px;
+    margin: 0;
+}
